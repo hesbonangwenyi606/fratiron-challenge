@@ -17,6 +17,7 @@ const TransactionTable = ({ transactions }) => {
           {transactions.map((transaction) => (
             <tr key={transaction.id}>
               <td className="table-data">{transaction.id}</td>
+              <td className="table-data">{transaction.date}</td>
               <td className="table-data">{transaction.description}</td>
               <td className="table-data">{transaction.category}</td>
               <td className="table-data">{transaction.amount}</td>

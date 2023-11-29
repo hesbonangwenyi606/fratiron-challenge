@@ -45,7 +45,8 @@ const TransactionForm = ({ onAddTransaction }) => {
         <label>
           Amount:
           <input
-            type="text"
+            type='number'
+            placeholder='0'
             value={amount}
             onChange={(e) => setAmount(e.target.value)}
           />

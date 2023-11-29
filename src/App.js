@@ -22,9 +22,21 @@ const App = () => {
   };
 
   // Function to search transactions
-  const handleSearch = (searchTerm) => {
-    // Implement your search logic here and update the state accordingly
-  };
+ // Function to search transactions
+const handleSearch = (searchTerm) => {
+  // Filter transactions based on search term
+  const filteredTransactions = transactions.filter((transaction) => {
+    // Implement your search logic here, e.g., searching by description or category
+    return (
+      transaction.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      transaction.category.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+  });
+
+  // Update the state with filtered transactions
+  setTransactions(filteredTransactions);
+};
+
 
   return (
     <div>
