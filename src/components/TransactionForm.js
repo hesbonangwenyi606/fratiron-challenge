@@ -22,6 +22,7 @@ const TransactionForm = ({ onAddTransaction }) => {
     setAmount('');
   };
   
+  
   return (
     <div className='transaction-div'>
       <h2>Add New Transaction</h2>

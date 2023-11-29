@@ -1,6 +1,7 @@
 import React from 'react';
 
 const TransactionTable = ({ transactions }) => {
+  
   return (
     <div className='transaction-div'>
       <h2 className='transaction-header'>Transaction Table</h2>

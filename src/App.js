@@ -21,7 +21,7 @@ const App = () => {
     
   };
 
-  // Function to search transactions
+  
  // Function to search transactions
 const handleSearch = (searchTerm) => {
   // Filter transactions based on search term
