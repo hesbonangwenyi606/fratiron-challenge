@@ -21,7 +21,6 @@ const TransactionForm = ({ onAddTransaction }) => {
     setCategory('');
     setAmount('');
   };
-
   return (
     <div className='transaction-div'>
       <h2>Add New Transaction</h2>
