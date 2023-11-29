@@ -37,7 +37,6 @@ const handleSearch = (searchTerm) => {
   setTransactions(filteredTransactions);
 };
 
-
   return (
     <div>
       <h1>Bank Transactions App</h1>
