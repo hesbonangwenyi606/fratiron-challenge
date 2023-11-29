@@ -23,7 +23,7 @@ const TransactionForm = ({ onAddTransaction }) => {
   };
 
   return (
-    <div>
+    <div className='transaction-div'>
       <h2>Add New Transaction</h2>
       <form onSubmit={handleSubmit}>
         <label>
